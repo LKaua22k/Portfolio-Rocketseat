@@ -372,6 +372,14 @@ section{
 }
 
 @media (max-width: 535px){
+    main{
+        display: block;
+    }
+
+    section{
+        margin-top: 30px;
+    }
+
     .project__grid{
         grid-template-columns: repeat(1,1fr);
     }
